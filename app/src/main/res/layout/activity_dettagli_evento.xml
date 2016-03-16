@@ -1,0 +1,188 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="it.uniba.gruppo10.avi2016.activities.DettagliEventoActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewDescrizione_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewPartecipanti_2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="bottom"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:text="Descrizione:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewOrario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textViewOrario_2"
+            android:layout_alignTop="@+id/textViewOrario_2"
+            android:layout_toEndOf="@+id/textViewPartecipanti_2"
+            android:layout_toRightOf="@+id/textViewPartecipanti_2"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="New Text"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textViewStanza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textViewStanza_2"
+            android:layout_alignTop="@+id/textViewStanza_2"
+            android:layout_toRightOf="@+id/textViewPartecipanti_2"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="New Text"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textViewPartecipanti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textViewPartecipanti_2"
+            android:layout_alignTop="@+id/textViewPartecipanti_2"
+            android:layout_toEndOf="@+id/textViewPartecipanti_2"
+            android:layout_toRightOf="@+id/textViewPartecipanti_2"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="New Text"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textViewPartecipanti_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewStanza_2"
+            android:layout_alignStart="@+id/textViewStanza_2"
+            android:layout_below="@+id/textViewStanza_2"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:text="Partecipanti:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewStanza_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewOrario_2"
+            android:layout_alignStart="@+id/textViewOrario_2"
+            android:layout_below="@+id/textViewOrario_2"
+            android:gravity="bottom"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:text="Stanza:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewOrario_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="bottom"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:text="Orario:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/scrollView"
+        android:layout_toRightOf="@+id/rl1">
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/imageViewCalendario"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="16dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewCalendario"
+            android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/editTextMinutiDettagli"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textSize="12dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textViewMinuti"
+                android:layout_toEndOf="@+id/textViewMinuti" />
+
+            <TextView
+                android:id="@+id/textViewMinuti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Min: "
+                android:textColor="#ffb1afb0"
+                android:textSize="12dp"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/editTextMinutiDettagli"
+                android:layout_alignBottom="@+id/editTextMinutiDettagli" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl1">
+
+        <TextView
+            android:id="@+id/textViewDescrizione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewDescrizione_2"
+            android:nestedScrollingEnabled="false"
+            android:paddingBottom="1dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="1dp"
+            android:text="New Text"
+            android:textSize="16dp" />
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.pkmmte.view.CircularImageView
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:id="@+id/imageView"
+        android:src="@mipmap/user"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="8dp"
+        app:border="true"
+        app:border_color="#EEEEEE"
+        app:border_width="2dp"
+        app:shadow="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asdrubale"
+        android:id="@+id/utente_adapter"
+        android:textSize="18dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@+id/imageViewInfo"
+        android:layout_toStartOf="@+id/imageViewInfo"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewInfo"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignBottom="@+id/utente_adapter" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/utente_adapter"
+        android:id="@+id/tabella"
+        android:visibility="gone"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="260dp"
+
+            android:id="@+id/imageViewFollow"
+            android:src="@drawable/follow_me_bird"
+            android:clickable="true"
+            android:adjustViewBounds="false"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/imageViewCallSkype"
+            android:src="@drawable/skype_icon_01"
+            android:layout_marginRight="285dp"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/imageViewCall"
+            android:src="@drawable/callme"
+            android:layout_marginRight="290dp" />
+    </TableLayout>
+
+</RelativeLayout>

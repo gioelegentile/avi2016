@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/other_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="7dp"
+        android:paddingTop="3dp"
+        android:background="@drawable/othermessage"
+        android:textSize="16dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="100dp" />
+
+    <TextView
+        android:id="@+id/my_message"
+        android:background="@drawable/mymessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="6dp"
+        android:gravity="center_vertical|left"
+        android:paddingBottom="4dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="15dp"
+        android:paddingTop="3dp"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<resources>
+    <string name="myevents">Events saved</string>
+    <string name="app_name">AVI 2016</string>
+    <string name="registration_successful">Registration successful</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="signup">Sign Up</string>
+    <string name="keep_access">Save data</string>
+    <string name="title_activity_registrazione">Registration</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_surname">Enter surname</string>
+    <string name="surname">Surname</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter email</string>
+    <string name="degree">Degree</string>
+    <string name="enter_degree">Enter degree</string>
+    <string name="academic_year">Academic year</string>
+    <string name="enter_academic_year">Enter academic year</string>
+    <string name="confirm">Confirm</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password">Password</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="wrong_email">Wrong email!</string>
+    <string name="wrong_password">Wrong password!</string>
+    <string name="chat">Chat</string>
+    <string name="contacts">Contacts</string>
+    <string name="loadingProgressDialog">Logging in</string>
+    <string name="title_activity_info_personali">Personal info</string>
+    <string name="edit">Edit</string>
+    <string name="nome">Nome</string>
+    <string name="title_activity_chat_user" translatable="false">chat</string>
+    <string name="title_activity_group_chat" translatable="false">GroupChatActivity</string>
+    <string name="drawer_open" translatable="false">drawer_open</string>
+    <string name="drawer_close" translatable="false">drawer_close</string>
+    <string name="title_activity_image_upload" translatable="false">ImageUploadActivity</string>
+    <string name="loading">Loading</string>
+    <string name="group">Group</string>
+    <string name="profile_image">Profile image</string>
+    <string name="personal_data">Personal data</string>
+    <string name="ok">Ok</string>
+    <string name="express_preference">Express a preference</string>
+    <string name="registration">Registrazione</string>
+    <string name="registration_message">Richiesta d\'iscrizione inviata. A breve riceverà un\'email, all\'indirizzo indicato, contenente la password per effettuare l\'accesso.</string>
+    <string name="title_activity_menu_principale">MenuPrincipaleActivity</string>
+    <string name="drawerOptionDay1">Day 1</string>
+    <string name="drawerOptionDay2">Day 2</string>
+    <string name="drawerOptionDay3">Day 3</string>
+    <string name="welcome">Welcome </string>
+    <string name="title_activity_dettagli_evento" translatable="false">DettagliEventoActivity</string>
+    <string name="add_to_calendar">Add to calendar</string>
+    <string name="event_already_added">Event already added to calendar</string>
+    <string name="event_added">Event added to your calendar</string>
+    <string name="error">ERROR!</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_splash_screen" translatable="false">SplashScreen</string>
+    <string name="no_connection">No Internet Connection, try again</string>
+    <string name="title_activity_rating">Rating</string>
+    <string name="rate_button">Rate</string>
+    <string name="rated_button">Rated</string>
+    <string name="rate_event">Rate Event</string>
+    <string name="warning_rate_activity">Warning: event rating can be done only one and rating will be anonymous</string>
+    <string name="event_already_rated">Event already Rated</string>
+    <string name="confirm_rating">Rate</string>
+    <string name="insert_comment">Insert Comment</string>
+    <string name="unlimited_participation">No limits</string>
+    <string name="venue">Venue</string>
+    <string name="committees">committees</string>
+    <string name="about" translatable="false">About Avi</string>
+    <array name="General_Chair">
+        <item>Maria F. Costabile - University of Bari Aldo Moro (Italy)</item>
+    </array>
+    <array name="Program_Chairs">
+        <item>Paolo Buono - University of Bari Aldo Moro (Italy)</item>
+        <item>Maristella Matera - Politecnico di Milano (Italy)</item>
+    </array>
+    <array name="Short_Paper_Chairs">
+        <item>Carmelo Ardito - University of Bari Aldo Moro (Italy)</item>
+        <item>Daniela Fogli - University of Brescia (Italy)</item>
+    </array>
+    <array name="Workshop_Chairs">
+        <item>Catherine Plaisant - University of Maryland (USA)</item>
+        <item>Massimo Zancanaro - Fondazione Bruno Kessler (Italy)</item>
+    </array>
+    <array name="Steering_Committee">
+        <item>Paolo Bottoni - La Sapienza University of Rome (Italy)</item>
+        <item>Franca Garzotto - Politecnico di Milano (Italy)</item>
+        <item>Stefano Levialdi - La Sapienza University of Rome (Italy)</item>
+        <item>Paolo Paolini - Politecnico di Milano (Italy)</item>
+        <item>Giuseppe Santucci - La Sapienza University of Rome (Italy)</item>
+        <item>Genny Tortora - University of Salerno (Italy)</item>
+    </array>
+    <array name="Paper_Chairs">
+        <item>Rosa Lanzilotti - University of Bari Aldo Moro (Italy)</item>
+        <item>Alessio Malizia - Brunel University (UK)</item>
+    </array>
+    <array name="Poster_and_Demo_Chairs">
+        <item>Barbara Rita Barricelli - Università degli Studi di Milano (Italy)</item>
+        <item>Antonio Piccinno - University of Bari Aldo Moro (Italy)</item>
+    </array>
+    <array name="Publicity_Chair">
+        <item>Giuseppe Desolda - University of Bari Aldo Moro (Italy)</item>
+    </array>
+    <array name="keys_commi">
+        <item>General Chair</item>
+        <item>Program Chairs</item>
+        <item>Short Paper Chairs</item>
+        <item>Workshop Chairs</item>
+        <item>Steering Committee</item>
+        <item>Paper Chairs</item>
+        <item>Poster and Demo Chairs</item>
+        <item>Poster and Demo Chairs</item>
+        <item>Publicity Chair</item>
+    </array>
+    <string name="about_avi" translatable="false">Since 1992, AVI has been a biannual appointment for a wide international community of experts with a broad range of backgrounds. Through out more than two decades, the Conference has attracted leading researchers of Human-Computer Interaction (HCI) from all over the world, offering a forum to present and disseminate new technological results, new paradigms, new visions for HCI and user interfaces. Because of advanced technology and new possibilities for user interaction, AVI has broadened the topics it covers, still keeping its main focus on the conception, design, implementation and evaluation of novel visual interfaces.
+While routed in Italy, AVI is a true international conference with respect to nationality of participants, authors of papers and program committee members. The mixture of carefully selected research contributions paired with cordial Italian hospitality creates a unique conference atmosphere, which has made AVI an internationally recognized brand.
+Traditionally, AVI has been in cooperation with ACM SIGCHI and AVI proceedings have been published by ACM Press and available in the ACM Digital Library.
+For AVI 2016 the in cooperation status with ACM SIGCHI, SIGMM, SIGWEB is pending.
+Past editions of AVI:</string>
+    <array name="keys_conta">
+        <item>Paolo Buono</item>
+        <item>Maristella Matera</item>
+    </array>
+    <array name="Paolo_Buono">
+        <item>Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, Via Orabona, 4 - 70125 Bari, Italy</item>
+        <item>PHONE: +39 080 544 2239</item>
+        <item>FAX: +39 080 544 3300 </item>
+        <item>EMAIL: paolo.buono@uniba.it</item>
+    </array>
+    <array name="Maristella_Matera">
+        <item>Dipartimento di Elettronica, Informazione e Bioingegneria (DEIB), Politecnico di Milano, Via Ponzio, 34/5, 20133 - Milano, Italy</item>
+        <item>PHONE: +39 02 2399 3408</item>
+        <item>FAX:+39 02 2399 3411 </item>
+        <item>EMAIL: maristella.matera@polimi.it</item>
+    </array>
+    <string name="Venue" translatable="false">The edition of 2016 will be held in Bari, a beautiful city on the Adriatic coast of Southern Italy.
+
+The hotel Villa Romanazzi Carducci, with its liberty-period villa immersed in a beautiful park characterized by a variety of trees along various pathways, provides the right context for welcoming the AVI participants.
+Rock gardens, balustrades, statues and fountains, so typical of romantic gardens, are combined with a modern structure equipped with everything needed for an international conference. The hotel is close to the city center, the train station and the airport shuttle.</string>
+    <string name="title_activity_info_personali_fragment" translatable="false">InfoPersonaliFragment</string>
+    <string name="data_modified">Your data has been modified</string>
+    <string name="eventDetails">Details</string>
+    <string name="no_chat">Still no chat...</string>
+    <string name="no_chat_message">To begin chatting with someone go to the contacts card and press on a contact.</string>
+    <string name="no_group">Still no groups...</string>
+    <string name="no_group_message">To create a chatting group press on the button down below.</string>
+    <string name="no_event">No event saved...</string>
+    <string name="no_event_message">Check out the list of events through the menu on the left and choose the events to be saved in your calendar.</string>
+    <string name="logintitle">Login</string>
+    <string name="title_activity_nome_gruppo">New group</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_scelta_contatti">Members choise</string>
+    <string name="minutes">Minutes</string>
+</resources>

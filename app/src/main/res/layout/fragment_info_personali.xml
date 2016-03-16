@@ -1,0 +1,201 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="it.uniba.gruppo10.avi2016.activities.InfoPersonaliActivity">
+
+        <com.rey.material.widget.EditText
+            android:id="@+id/textfield_name_edit"
+            style="@style/Material.Widget.EditText.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:paddingBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            app:et_dividerErrorColor="@color/red"
+            app:et_helper="@string/enter_name"
+            app:et_inputId="@+id/textfield_name_2_edit"
+            app:et_labelTextSize="16dp"
+            app:et_supportMode="helper"
+            app:et_supportTextErrorColor="@color/red"
+            app:et_supportTextSize="13dp" />
+
+        <com.rey.material.widget.EditText
+            android:id="@+id/textfield_surname_edit"
+            style="@style/Material.Widget.EditText.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textfield_name_edit"
+            android:hint="@string/surname"
+            android:inputType="text"
+            android:paddingBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            app:et_dividerErrorColor="@color/red"
+            app:et_helper="@string/enter_surname"
+            app:et_inputId="@+id/textfield_surname_2_edit"
+            app:et_labelTextSize="16dp"
+            app:et_supportMode="helper"
+            app:et_supportTextErrorColor="@color/red"
+            app:et_supportTextSize="13dp" />
+        <TextView
+            android:id="@+id/textViewYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="8dp"
+            android:text="Social"
+            android:layout_marginBottom="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewTwitter"
+                android:layout_alignBottom="@+id/imageViewat"
+                android:layout_alignParentTop="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewat"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageViewTwitter"
+                android:layout_toEndOf="@+id/imageViewTwitter"
+                android:layout_alignBottom="@+id/editTextTwitter" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextTwitter"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageViewat"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewSkype"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextSkype"
+                android:layout_toRightOf="@+id/imageViewSkype"
+                android:layout_toEndOf="@+id/imageViewSkype" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewPhone"
+                android:layout_marginTop="15dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/editTextPhone"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/imageViewPhone"
+                android:layout_toEndOf="@+id/imageViewPhone" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/profile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageViewInfo"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:gravity="center_vertical"
+                android:text="@string/profile_image"
+                android:layout_alignTop="@+id/imageViewInfo" />
+
+            <com.pkmmte.view.CircularImageView
+                android:id="@+id/imageViewInfo"
+                android:layout_width="300dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/user"
+                app:border="true"
+                app:border_color="#EEEEEE"
+                app:border_width="2dp"
+                app:selector="true"
+                app:selector_color="#495EECFF"
+                app:selector_stroke_color="#495EECFF"
+                app:shadow="true"
+                android:layout_toRightOf="@+id/profile_image" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.gc.materialdesign.views.ButtonFloat
+                android:id="@+id/buttonFloatInfoPersonali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/azure"
+                materialdesign:animate="false"
+                android:layout_gravity="bottom|right" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

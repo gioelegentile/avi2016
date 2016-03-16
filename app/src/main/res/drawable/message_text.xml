@@ -1,0 +1,17 @@
+<!-- drawable/message-text.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="21"
+    auto:height="24dp"
+    auto:width="24dp"
+    auto:viewportWidth="24"
+    auto:viewportHeight="24"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path auto:fillColor="@color/azure" auto:pathData="M20,2A2,2 0 0,1 22,4V16A2,2 0 0,1 20,18H6L2,22V4C2,2.89 2.9,2 4,2H20M5,5V7H19V5H5M5,9V11H13V9H5M5,13V15H15V13H5Z"
+
+     android:fillColor="@color/azure" android:pathData="M20,2A2,2 0 0,1 22,4V16A2,2 0 0,1 20,18H6L2,22V4C2,2.89 2.9,2 4,2H20M5,5V7H19V5H5M5,9V11H13V9H5M5,13V15H15V13H5Z" />
+</vector>

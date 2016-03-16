@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AVI 2016</string>
+    <string name="academic_year">Anno accademico</string>
+    <string name="action_settings">Opzioni</string>
+    <string name="back">Indietro</string>
+    <string name="cancel">Chiudi</string>
+    <string name="chat">Chat</string>
+    <string name="confirm">Conferma</string>
+    <string name="contacts">Contatti</string>
+    <string name="degree">Corso</string>
+    <string name="edit">Modifica</string>
+    <string name="email">Email</string>
+    <string name="enter_academic_year">Inserisci anno accademico</string>
+    <string name="enter_degree">Inserisci corso di studi</string>
+    <string name="enter_email">Inserisci email</string>
+    <string name="enter_name">Inserisci nome</string>
+    <string name="enter_password">Inserisci password</string>
+    <string name="enter_surname">Inserisci cognome</string>
+    <string name="keep_access">Salva dati</string>
+    <string name="loadingProgressDialog">Accesso in corso</string>
+    <string name="login">Accedi</string>
+    <string name="name">Nome</string>
+    <string name="nome">Nome</string>
+    <string name="password">Password</string>
+    <string name="registration_successful">Registrazione avvenuta con successo</string>
+    <string name="signup">Registrati</string>
+    <string name="surname">Cognome</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_info_personali">Informazioni personali</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_registrazione">Registrazione</string>
+    <string name="wrong_email">Email sbagliata!</string>
+    <string name="wrong_password">Password sbagliata!</string>
+    <string name="drawerOptionDay1">Giorno 1</string>
+    <string name="drawerOptionDay2">Giorno 2</string>
+    <string name="drawerOptionDay3">Giorno 3</string>
+    <string name="eventDetails">Dettagli</string>
+    <string name="write_a_message">Scrivi un messaggio</string>
+    <string name="add_to_calendar">Aggiungi al calendario</string>
+    <string name="event_added">Evento aggiunto al tuo calendario</string>
+    <string name="event_already_added">Evento già presente nel tuo calendario</string>
+    <string name="exit">Esci</string>
+    <string name="group">Gruppo</string>
+    <string name="loading">Caricamento</string>
+    <string name="ok">Ok</string>
+    <string name="personal_data">Dati personali</string>
+    <string name="profile_image">Immagine del profilo</string>
+    <string name="registration">Registrazione</string>
+    <string name="registration_message">Richiesta d\'iscrizione inviata. A breve riceverà un\'email, all\'indirizzo indicato, contenente la password per effettuare l\'accesso.</string>
+    <string name="title_activity_menu_principale">Menu principale</string>
+    <string name="welcome">Benvenuto/a</string>
+    <string name="myevents">Eventi salvati</string>
+    <string name="no_connection">Connessione internet assente, riprova</string>
+    <string name="confirm_rating">Conferma Valutazione</string>
+    <string name="insert_comment">Inserisci commento</string>
+    <string name="venue">Sede</string>
+    <string name="committees">Comitati</string>
+    <string name="data_modified">I tuoi dati sono stati modificati</string>
+    <string name="express_preference">Esprimi una preferenza</string>
+    <string name="error">ERRORE</string>
+    <string name="unlimited_participation">Nessun limite</string>
+    <string name="rate_event">Valuta l\'evento</string>
+    <string name="event_already_rated">Evento già valutato</string>
+    <string name="title_activity_rating">Valutazione</string>
+    <string name="no_chat">Ancora nessuna chat...</string>
+    <string name="no_chat_message">Per cominciare a chattare con qualcuno vai nella scheda contatti e premi su un contatto.</string>
+    <string name="no_event">Nessun evento salvato...</string>
+    <string name="no_event_message">Controlla la lista di eventi attraverso il menù a sinistra e scegli gli eventi da salvare nel tuo calendario.</string>
+    <string name="logintitle">Autenticazione</string>
+    <string-array name="anni_array">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>I LM</item>
+        <item>II LM</item>
+    </string-array>
+    <string name="no_group">Ancora nessun gruppo...</string>
+    <string name="no_group_message">Per creare un gruppo di chat premi sul bottone quì in basso.</string>
+    <string name="title_activity_nome_gruppo">Nuovo gruppo</string>
+    <string name="title_activity_scelta_contatti">Scelta membri</string>
+    <string name="warning_rate_activity">Attenzione: l\'evento è valutabile una volta sola ed il voto espresso resta anonimo.</string>
+    <string name="rate_button">Vota</string>
+    <string name="rated_button">Votato</string>
+</resources>

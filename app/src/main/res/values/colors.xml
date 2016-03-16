@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="progressViewColor">#3f51b5</color>
+    <color name="red">#FFFF0000</color>
+    <color name="azure">#3f51b5</color>
+    <color name="azureDark">#303f9f</color>
+    <color name="White">#FFF</color>
+    <color name="white_opaque">#FFFFFFFF</color>
+    <color name="darker_gray">@android:color/darker_gray</color>
+    <color name="accent_color">#FF9800</color>
+
+
+
+</resources>

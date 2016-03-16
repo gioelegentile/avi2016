@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.uniba.gruppo10.avi2016.activities.SceltaContattiActivity">
+    <item
+        android:title="FINE"
+        android:id="@+id/fine"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+</menu>

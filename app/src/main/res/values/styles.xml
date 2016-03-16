@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/azure</item>
+        <item name="colorPrimaryDark">@color/azureDark</item>
+    </style>
+
+    <style name="YourRippleDrawableStyle">Material.Drawable.Ripple.Touch</style>
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/azure</item>
+        <item name="colorPrimaryDark">@color/azureDark</item>
+    </style>
+
+    <style name="AppTheme2" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+
+    </style>
+
+    <style name="ActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/azure</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleText</item>
+        <item name="android:subtitleTextStyle">@style/ActionBar.subtitle</item>
+
+    </style>
+
+    <style name="ActionBar.TitleText" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="FlatColorButtonRippleStyle" parent="Material.Drawable.Ripple.Touch.Light"></style>
+
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/azureDark</item>
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    <style name="ActionBar.subtitle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+    </style>
+</resources>
