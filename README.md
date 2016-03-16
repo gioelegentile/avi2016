@@ -1,5 +1,8 @@
-# README #
+# Avi 2016
 
-Per imparare ad usare le librerie grafiche andate qui
+Avi 2016 is an useful application to manage the Avi conference events, which took place in Bari(IT) every 2 years.
 
-[PRIMA LIBRERIA](https://github.com/navasmdc/MaterialDesignLibrary#howtouse)[TERZA LIBRERIA](http://rey5137.com/material/)
+Build with:
+- Firebase document database
+- [Graphic library #1](https://github.com/navasmdc/MaterialDesignLibrary#howtouse) 
+- [Graphic library #2](http://rey5137.com/material/)
